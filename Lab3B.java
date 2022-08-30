@@ -11,7 +11,7 @@ public class Lab3B {
         int course1h, course2h, course3h, course4h;
         int course1g, course2g, course3g, course4g;
         float totalhours, totalqualitypoints;
-        float gpac;
+        float gpa;
         Scanner sc = new Scanner(System.in);
         System.out.print("Course 1 hours: ");
         course1h = sc.nextInt();
@@ -31,10 +31,9 @@ public class Lab3B {
         course4g = sc.nextInt();
         totalhours = course1h + course2h + course3h + course4h;
         totalqualitypoints = course1h * course1g + course2h * course2g + course3h * course3g + course4h * course4g;
-        gpac = totalqualitypoints / totalhours;
-        String gpa = String.format("%.5f", gpac);
-        System.out.println("Total hours is: " + Math.round(totalhours));
-        System.out.println("Total quality points: " + Math.round(totalqualitypoints));
+        gpa = totalqualitypoints / totalhours;
+        System.out.println("Total hours is: " + totalhours);
+        System.out.println("Total quality points: " + totalqualitypoints);
         System.out.println("Your GPA for this semester: " + gpa);
     }
 }
