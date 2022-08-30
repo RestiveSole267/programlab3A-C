@@ -12,7 +12,7 @@ public class Lab3A {
     public static void main(String[] args){
         float owed, apr, mprc, mpc;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Amount owed: ");
+        System.out.print("Amount owed: $");
         owed = sc.nextInt();
         System.out.print("APR: ");
         apr = sc.nextFloat();
