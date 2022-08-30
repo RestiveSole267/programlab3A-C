@@ -33,7 +33,7 @@ public class Lab3B {
         totalqualitypoints = course1h * course1g + course2h * course2g + course3h * course3g + course4h * course4g;
         gpa = totalqualitypoints / totalhours;
         System.out.println("Total hours is: " + totalhours);
-        System.out.println("Total quality points: " + totalqualitypoints);
+        System.out.println("Total quality points is: " + totalqualitypoints);
         System.out.println("Your GPA for this semester is " + gpa);
     }
 }
