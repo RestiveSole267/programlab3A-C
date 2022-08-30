@@ -1,6 +1,9 @@
-
-// Math.round(a)
-//
+//Class: CSE 132L
+//Section: J08
+//Term: Fall
+//Instructor: Chandana Avadhani
+//Name: Cameron White
+//Lab#: 3
 
 import java.util.Scanner;
 public class Lab3B {
