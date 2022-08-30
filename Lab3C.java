@@ -28,15 +28,11 @@ public class Lab3C {
         tnickels = nickels * 5;
         tpennies = pennies * 1;
         int dollars = 0;
-        int cents = 0;
         total = tquarters + tdimes + tnickels + tpennies;
-        if (total > 100) {
+        while (total > 100) {
             dollars += 1;
             total -= 100;
-            System.out.println("Your total is " + dollars + " dollars and " + total + " cents. ");
-        } else {
-                System.out.println("Your total is " + dollars + " dollars and " + total + " cents. ");
         }
+        System.out.println("Your total is " + dollars + " dollars and " + total + " cents. ");
     }
 }
-
