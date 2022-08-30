@@ -20,7 +20,6 @@ public class Lab3A {
         mpc = owed * apr / 12 / 100;
         String mpr = String.format("%.3f", mprc);
         String mp = String.format("%.2f", mpc);
-        System.out.print("APR: " + apr);
         System.out.println("Monthly Percentage Rate: " + mpr);
         System.out.println("Minimum payment: $" + mp);
     }
